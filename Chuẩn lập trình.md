@@ -1,54 +1,33 @@
-CHUẨN LẬP TRÌNH
+1.Cách tổ chức và lưu tên flie, thư mục
+Quy tắc đối với thư mục :
+Tên thư mục phải trực quan, mô tả được tác dụng của những file nó chứa bên trong và được tối ưu nhất, tức là không dồn tất cả các file vào một thư mục nếu mục đích của file đó không thực sự đúng với mục đích của thư mục.
+Tên thư mục không đặt in hoa, tất cả ký tự đều là chữ thường, không sử dụng dấu cách (space) trong khi đặt thư mục, nếu cần thiết sử dụng dấu gạch dưới ( _ ) để đặt tên
+Quy tắc đối với File và Đặt tên File :
+Đối với tổ chức File: File được lưu phải đúng địa điểm, nằm đúng thư mục mô tả tác dụng của nó, không lưu tại thư mục không liên quan đến mục đích của nó, không lưu file tại thư mục không mô tả rõ ràng mục đích của nó
+Đối với đặt tên File: Tên File được lưu phải mô tả được nội dung tối tất yếu của nó (class, function….)
+Tên File không sử dụng dấu cách (space), nếu cần thiết sử dụng dấu gạch dưới ( _ )
+2.	Cách tổ chức, đặt tên cho Fungction, Class
+Có thể đối với một số bạn, trong quá trình này đây là kiến thức khó hiểu, vì bạn chưa có căn bản về function và class, dẫu vậy bạn vẫn nên đọc và lưu ý bài viết này để dành cho sau này khi bạn cần đến trong quá trình học.
+Cách tổ chức Function, Class
+Đối với Class, Function phải khai báo tên có mục đích rõ ràng, mô tả được công việc mà Class (lớp) và các Funtion (phương thức) của nó thực hiện.
+Tên Class,Function không bắt đầu bằng số, bắt buộc bắt đầu bằng chữ cái và Viết HOA chữ cái đầu tiên.
+Không sử dụng dấu cách (space) cho tên Class, Function. Nếu cần thiết sử dụng dấu gạch dưới ( _ ).
+Bắt Buộc mô tả bằng dấu Comment (Sẽ mô tả ở phần sau) về nội dung Class, Function, các biến truyền vào, các biến sẽ trả về.
+Cách tổ chức Function khi khai báo theo phong cách không hướng đối tượng
+Function phải được khai báo sau tất cả mọi xử lý, thông thường theo cách viết này, function sẽ được đổ dồn về cuối file.
+Function vẫn phải tuân theo phong cách đặt tên và khai báo cơ bản.
+3.	Quy tắc đặt tên biến
+•	Tên biến phải mô tả rõ ràng nội dung nó sẽ đảm nhận.
+•	Tất cả phải viết bằng chữ thường
+•	Không sử dụng dấu cách (space) khi đặt tên, nếu cần thiết sử dụng dấu ( _ )
+•	Tên biến khai báo có hoặc không cần kiểu dữ liệu (chỉ đối với PHP, các ngôn ngữ khác có quy tắc khác)
+•	Khi khai báo biến phải sử dụng comment để nêu rõ tác dụng và nội dung biến sẽ chứa
+4.	Comment trong quá trình viết Code
+Đối với tất cả các loại ngôn ngữ, comment trong quá trình viết code rất quan trọng, nó sẽ mô tả được các thông tin và điều mà người lập trình cần lưu ý đối với người đọc và chỉnh sửa code của họ sau này.
+-Comment với tất cả Class, Function, Biến, quá trình xử lý điều kiện nào đó.
+•	Sử dụng comment theo 2 cách : dùng dấu ( //comment content ) hoặc cặp dấu (/* comment content*/)
+•	Đối với cặp dấu ( //comment content ): Nội dung comment sẽ nằm sau cặp dấu này bắt đầu từ dấu / thứ 2, tác dụng của comment chỉ duy nhất trên dòng đó.
+•	Đối với cặp dấu (/* comment content*/) : Nội dung comment nằm trong cặp dấu này bắt đầu từ dấu * đầu tiên cho đến dấu * thứ 2, tác dụng của comment này có thể tác dụng trên nhiều dòng, tùy thuộc vào dấu * thứ hai nằm ở dòng nào để kéo dài khoảng cách comment.
+•	Tất cả nội dung trong comment bao gồm : Biến, Function, Class, Text. Tất cả đều không có tác dụng trong phần comment và không có tác dụng, không hiển thị trong quá trình xử lý.
 
-I. TỔ CHỨC TẬP TIN, THƯ MỤC
-
-Đặt tên tập tin ngắn gọn (độ dài tên tập tin nên <=8 ký tự)
--Lưu mỗi lớp trong một tập tin riêng biệt và tên tập tin phải trùng với tên với lớp
--Mỗi namespace được đặt trong một thư mục riêng, phân cấp thư mục theo phân cấp của Namespace. II. NGẮT DÒNG, THỤT VÀO ĐẦU DÒNG
--Khi một biểu thức quá dài, ta phải ngắt dòng biểu thức đó theo nguyên tắt sau:
- Ngắt sau dấu phẩy
- Ngắt sau phép toán
- Ngắt theo độ ưu tiên của các phép toán
--Canh lề dòng sau khi ngắt phải ngang bằng với dòng trên tại cùng độ ưu tiên của phép toán
--Các dòng lệnh cùng cấp phải đặt thẳng hàng, các dòng lệnh cấp con phải thụt vào 1 khoảng tab so với dòng lệnh III. CHÚ THÍCH
--Chú thích 1 đoạn: sử dụng cặp dấu /.../
--Chú thích 1 dòng : sử dụng //
--Tất cả các hàm tự tạo đều phải có chú thích phía trước theo các cú pháp yêu cầu IV. KHAI BÁO BIẾN
--Nên khai báo mỗi biến trên 1 dòng
--Phía sau biến chú thích công dụng của biến, giái trị có thể nhận được (nếu cần )
--Tất cả các biến khi khai báo đều phải khởi tạo giá trị ban đầu
--Nếu có nhiều biến khai báo gần nhau phải định dạng các khai báo đó theo dạng bảng VI. ĐỊNH NGHĨA LỚP/INTERFACE
--Dấu "{" phải được đặt ở dòng kế tiếp sau dòng định nghĩa lớp ( hoặc khai báo phương thức )
--Dấu '' } '' phải được đặt thẳng hàng với dấu "{" tương ứng của nó và phải được đặt trên 1 dòng riêng
-Giữa tên phương thức và dấu "(" phía sau không có khoảng trắng
--Bên trong l lớp / Interface, dữ liệu + phương thức phải được nhóm lại và được đặt theo trình tự sau :
- Biến public
- Biến cục bộ
--Phương thức khởi tạo + huỷ
--Các hàm xử lý sự kiện
--Các hàm tự tạo VII. CÂU LỆNH
--Mỗi câu lệnh nên đặt trên 1 dòng riêng
--Câu lệnh return cuối cùng trong hàm nên có dòng trống phía trước VIII. QUY ƯỚC ĐẶT TÊN
--Tên Lớp
--Tên lớp phải là danh từ hoặc cụm danh từ
--Sử dụng cách viết hoa của Pascal
--Bắt đầu bằng tiếp đầu ngữ " cls"
-Tên Interface
-Tên interface phải là danh từ, cụm danh từ hoặc tính từ
--Sử dụng cách viết hoa của Pascal
--Bắt đầu bằng tiếp đầu ngữ " I "
--Tên phương thức ( hàm )
--Tên phương thức sử dụng động từ hay cụm động từ
--Sử dụng cách viết hoa của Pascal
--Bắt đầu bằng tiếp đầu ngữ :
-Phương thức cục bộ : "mfnc"
--Phương thức toàn cục : "pfnc"
--Phương thức tĩnh : "sfnc" 4.Tên biến
--Các biến chạy dùng trong lặp: i,j,k,l,m,n
--Tên form
--Tên form đặt càng ngắn gọn càng tốt
--Sử dụng cách viết hoa của Pascal
--Dùng tiếp đầu ngữ "frm" 6.Tên control trên form
--Tên control nên đặt ngắn gon, mô tả được chức năng và công dụng của control đó trên form
--Sử dụng cách viết hoa của Pascal
 
