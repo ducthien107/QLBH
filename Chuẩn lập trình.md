@@ -31,3 +31,4 @@ Function vẫn phải tuân theo phong cách đặt tên và khai báo cơ bản
 •	Tất cả nội dung trong comment bao gồm : Biến, Function, Class, Text. Tất cả đều không có tác dụng trong phần comment và không có tác dụng, không hiển thị trong quá trình xử lý.
 
 
+
