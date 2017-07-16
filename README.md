@@ -1,5 +1,10 @@
 # QLBH
 Quản lý bán hàng
+Dự án: Quản lý bán hàng Tạo cơ sở dữ liệu bằng SQL server Sử dụng ngôn ngữ lập trình C# Được thực hiện bởi:
+- Hoàng Văn Phong
+- Vũ Đức THiện
+- Lại Hoàng Thạch
+
 1.	Mô tả bài toán:
 	Quản lý Bán hàng trong các doanh nghiệp là công việc quan trọng, đòi hỏi bộ phận Quản lý phải tiến hành nhiều nghiệp vụ phức tạp.
 Việc ứng dụng CNTT đã mang lại bước đột phá mới cho công tác quản lý bán hàng, giúp doanh nghiệp nắm bắt thông tin về hàng hóa, vật tư, thông tin khách hàng, và trạng thái các đơn đặt hàng... một cách chính xác và kịp thời. Từ đó người quản lý có thể đưa ra các kế hoạch và quyết định đúng đắn, giảm chi phí và tăng khả năng cạnh tranh, nâng cao kết quả hoạt động sản xuất kinh doanh
