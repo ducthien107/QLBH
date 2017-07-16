@@ -1,5 +1,7 @@
 1.Cách tổ chức và lưu tên flie, thư mục
+
 Quy tắc đối với thư mục :
+
 Tên thư mục phải trực quan, mô tả được tác dụng của những file nó chứa bên trong và được tối ưu nhất, tức là không dồn tất cả các file vào một thư mục nếu mục đích của file đó không thực sự đúng với mục đích của thư mục.
 Tên thư mục không đặt in hoa, tất cả ký tự đều là chữ thường, không sử dụng dấu cách (space) trong khi đặt thư mục, nếu cần thiết sử dụng dấu gạch dưới ( _ ) để đặt tên
 Quy tắc đối với File và Đặt tên File :
