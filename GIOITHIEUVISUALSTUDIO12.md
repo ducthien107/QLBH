@@ -17,17 +17,23 @@ Microsoft Viual Studio (VS) là một IDE được Microsoft phát triển để
 
 •	….
 Đến thời điểm viết bài này thì phiên bản chính thức mới nhất của VS là 2013.
+![image](https://user-images.githubusercontent.com/27820910/28246191-89efc6a6-6a3e-11e7-9459-d4b85e73d58b.png)
 
 
  
 Visual Studio Color Themes VS 2013 có 3 bộ theme chính phục vụ người dùng là Dark, Blue và Light. Điểm khác biệt của 3 bộ theme này chỉ là màu sắc của giao diện làm việc, các hình ảnh sử dụng trong bài viết thuộc về bộ theme Dark.
 Để thay đổi màu sắc, người dùng chỉ cần vào Tools -> Option
+![image](https://user-images.githubusercontent.com/27820910/28246198-bf0c39d2-6a3e-11e7-80b4-0e5d3494a020.png)
+
  
 Tại cửa sổ vừa hiện lên, tại mục General chọn Color theme cần đổi và bấm OK.
+![image](https://user-images.githubusercontent.com/27820910/28246206-e149f390-6a3e-11e7-976a-275f47f7f77a.png)
+
  
 Giao diện làm việc chính của Visual Studio
 Để bắt đầu làm việc với VS, người dùng cần phải tạo hoặc mở ra một Solution và tạo hoặc mở một hoặc nhiều Project trong đó. Về cách tạo Solution và Project, tác giả Rye Nguyễn đã có giới thiệu trong bài Tạo Project C++ Đầu Tiên - Hello World.
 Tôi đã chuẩn bị một Solution, và giao diện VS của tôi như sau:
+![image](https://user-images.githubusercontent.com/27820910/28246211-f73b2d22-6a3e-11e7-987f-217f6e03eb9b.png)
  
 Solution Explorer: là cửa sổ hiển thị Solution, các Project và các tập tin trong project.
 Khu vực code: đây là khu vực để lập trình viên viết mã nguồn cho chương trình. Cửa sổ lập trình cho một tập tin trong Project sẽ hiển thị khi người dùng nháy đúp chuột lên tập tin đó trong cửa sổ Solution Explorer.
