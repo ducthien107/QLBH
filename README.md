@@ -12,7 +12,7 @@ Quản lý bán hàng Dự án: Quản lý Bán hàng Tạo cơ sở dữ liệu
 
 1.	Mô tả bài toán:
 
-Quản lý Bán hàng trong các cửa hàng là công việc quan trọng, đòi hỏi bộ phận Quản lý phải tiến hành nhiều nghiệp vụ phức tạp.
+Quản lý Bán hàng trong các cửa hàng là công việc quan trọng, đòi hỏi chúng ta phải tiến hành nhiều nghiệp vụ phức tạp.
 Việc ứng dụng CNTT đã mang lại bước đột phá mới cho công tác quản lý bán hàng, giúp cửa hàng nắm bắt thông tin về hàng hóa, vật tư, thông tin khách hàng, và trạng thái các đơn đặt hàng... một cách chính xác và kịp thời. Từ đó người quản lý có thể đưa ra các kế hoạch và quyết định đúng đắn, giảm chi phí và tăng khả năng cạnh tranh, nâng cao kết quả hoạt động sản xuất kinh doanh
 
 2.	Mục tiêu cần đạt được:
