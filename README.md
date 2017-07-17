@@ -29,3 +29,14 @@ d. Thanh toán trực tiếp khi nhận hàng
 
 e. Có thông tin liên hệ với Shop để người dùng phản ảnh
 
+3. Mục tiêu phát triển phần mềm: 
+
+a. Hoàn thành nốt phần đăng ký thành viên
+
+b. Có thể thêm ban quản trị để quản lý tài khoản của khách hàng, quầy hàng, sản phẩm 
+
+c. Có thêm nhiều quầy hàng để phát triển nhiều mặt hàng như: Quần áo nam, mũ, giày dép...
+
+d. Thiết kế giao diện và bố cục đẹp hơn. 
+
+
